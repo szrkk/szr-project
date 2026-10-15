@@ -147,7 +147,7 @@ const processedLocalArticles = localArticles.map(article => ({
     tags: [...(article.tags || []), '精选'],
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString(),
-    author_name: '智汇编辑部',
+    author_name: 'ThinkLog编辑部',
     views: 0,
     likes: 0,
     content: ''

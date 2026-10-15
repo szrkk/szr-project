@@ -7,7 +7,7 @@
     <div class="login-weaper">
       <div class="login-left animate__animated animate__fadeInLeft">
         <div class="login-product-mark">AI</div>
-        <p class="title">智汇内容与 AI 配置控制台</p>
+        <p class="title">ThinkLog内容与 AI 配置控制台</p>
         <p class="login-subtitle">集中管理用户、文章、权限与模型密钥。所有关键配置都会即时影响前台服务。</p>
         <div class="login-feature-list">
           <div class="login-feature-item">

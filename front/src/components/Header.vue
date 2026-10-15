@@ -6,7 +6,7 @@
                     <span class="brand-mark-inner"></span>
                 </span>
                 <span class="brand-copy">
-                    <span class="brand-name">智汇博客</span>
+                    <span class="brand-name">ThinkLog</span>
                     <span class="brand-subtitle">AI Knowledge Lab</span>
                 </span>
             </button>

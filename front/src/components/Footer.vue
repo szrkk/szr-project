@@ -4,7 +4,7 @@
             <div class="footer-brand">
                 <span class="footer-mark" aria-hidden="true"></span>
                 <div>
-                    <h2>智汇博客</h2>
+                    <h2>ThinkLog</h2>
                     <p>面向开发者的 AI 知识创作与阅读工作台。</p>
                 </div>
             </div>
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <span>© 2026 智汇博客</span>
+            <span>© 2026 ThinkLog</span>
             <span class="mono">VUE3 / FLASK / AI</span>
         </div>
     </footer>

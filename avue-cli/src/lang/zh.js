@@ -1,6 +1,6 @@
 export default {
     tip: '提示',
-    title: '智汇管理台',
+    title: 'ThinkLog管理台',
     logoutTip: '确认退出后台管理系统？',
     submitText: '确认',
     cancelText: '取消',
@@ -9,7 +9,7 @@ export default {
     feedback: '反馈',
     submit: '提交',
     wel: {
-        info: '欢迎进入智汇管理台',
+        info: '欢迎进入ThinkLog管理台',
         dept: '集中管理内容、用户、权限与 AI 服务配置',
         team: '活跃模块',
         project: '访问量',
@@ -76,7 +76,7 @@ export default {
     },
     login: {
         title: '登录',
-        info: '智汇内容与 AI 配置控制台',
+        info: 'ThinkLog内容与 AI 配置控制台',
         username: '管理员账号',
         password: '登录密码',
         wechat: '微信',

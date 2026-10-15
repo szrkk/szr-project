@@ -3,7 +3,7 @@
         <section class="auth-intro" aria-label="产品介绍">
             <button class="brand" type="button" @click="goHome" aria-label="返回首页">
                 <span class="brand-mark" aria-hidden="true"></span>
-                <span>智汇博客</span>
+                <span>ThinkLog博客</span>
             </button>
 
             <div class="intro-copy">

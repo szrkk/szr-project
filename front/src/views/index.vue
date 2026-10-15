@@ -3,7 +3,7 @@
         <section class="hero-section">
             <div class="hero-copy">
                 <span class="eyebrow">AI-native developer blog</span>
-                <h1>智汇博客</h1>
+                <h1>ThinkLog博客</h1>
                 <p>
                     一个面向开发者的知识创作空间。把文章、AI 摘要、阅读上下文和个人作品管理放在同一个干净工作台里。
                 </p>
