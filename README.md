@@ -1,44 +1,34 @@
-# AI-Vue3-python-flask-Blog
+# ThinkLog博客
 
-一个适合大学生二次开发、课程设计和毕业设计的 **Vue 3 + Python Flask + MySQL** 全栈 AI 博客系统。
+## 📖 项目简介
+一个基于 Vue3 + Flask + MySQL 开发的全栈博客系统。本项目是我独立部署并进行二次开发的全栈实战项目，具备完整的前后端分离架构。
 
-本项目已经包含前台博客、后台管理、后端 API、数据库、登录鉴权、文章管理、评论收藏和基础 AI 能力。它不是一个空壳模板，而是可以直接运行、部署、演示和继续扩展的完整项目。
+## 🛠️ 技术栈
+- **前端**：Vue3 + Vite + TypeScript + Element Plus
+- **后端**：Python Flask + SQLAlchemy + JWT
+- **数据库**：MySQL 8.0
+- **AI能力**：集成大模型API用于辅助写作
 
-线上体验：[https://ai-vue3-python-flask-blog.vercel.app/](https://ai-vue3-python-flask-blog.vercel.app/)
+## 💻 本地部署指南 & 踩坑记录
+*(这部分是面试官最看重的，能证明你具备独立排错能力)*
 
-项目展示页：[linsk27 projects - AI-Vue3-python-flask-Blog](https://linsk27.github.io/projects/ai-vue-flask-blog/)
+1. **后端环境**
+   - Python 版本必须为 3.11（使用 3.14 会导致 pydantic 依赖解析死锁，无法安装依赖）。
+   - 必须提前启动 MySQL 服务。如果没有建库，会报错 `1049 Unknown database`。
+   - 修改 `backend` 下的配置，填入正确的数据库账号密码（否则报错 `1045 Access denied`）。
 
-> 使用声明：本项目仅供学习交流、课程设计、毕业设计和个人非商业二次开发参考使用，禁止商业用途。
+2. **前端环境**
+   - 安装 Node.js LTS 版本，并配置 npm 镜像加速。
+   - 如果运行 `npm` 报错“禁止运行脚本”，需以管理员身份运行 PowerShell，执行 `Set-ExecutionPolicy RemoteSigned` 解除限制。
 
-如果这个项目对你的学习、毕设选题或二开有帮助，欢迎 Star、Fork 和使用。
+3. **代码托管避坑**
+   - 提交代码到 GitHub 时，如果代码中包含真实 API Key，会触发 GitHub Push Protection 拦截。
+   - 解决方法：将真实 Key 替换为占位符，或者使用 `.env` 文件管理敏感信息，并写入 `.gitignore`。
 
-适合搜索关键词：**Vue3 毕业设计、Flask 毕业设计、Python 毕设项目、Vue Flask 前后端分离、AI 博客系统、MySQL 管理系统、大学生课程设计、毕业设计源码、前后端分离博客系统**。
-
-## 使用声明
-
-本项目仅供学习交流、课程设计、毕业设计和个人非商业二次开发参考使用。未经作者许可，禁止将本项目源码、页面设计、文档或改造版本用于商业售卖、付费课程、外包交付、SaaS 服务、企业项目等商业用途。
-
-## 为什么适合做毕设
-
-`main` 分支是当前稳定版本，已经适配 Vercel 前端部署和 Railway 后端部署。对于大学生毕业设计或课程设计，它有几个比较实用的优点：
-
-- 技术栈常见：Vue 3、Flask、MySQL、JWT、Element Plus，适合写论文和答辩说明。
-- 模块完整：前台、后台、后端、数据库都有，不只是单页面 Demo。
-- 功能够用：文章发布、用户登录、权限管理、评论收藏、AI 写作、图片上传等基础功能齐全。
-- 易于扩展：可以继续做 AI 写作、知识库、推荐系统、数据统计、后台审核、角色权限等方向。
-- 可部署演示：项目已经做过线上部署适配，适合答辩时展示真实网站。
-
-## 可参考的毕设题目
-
-如果你正在准备选题，可以基于本项目包装成这些方向：
-
-- 基于 Vue3 + Flask 的 AI 智能博客系统设计与实现
-- 基于前后端分离架构的知识分享平台设计与实现
-- 基于 Python Flask + MySQL 的内容管理系统设计与实现
-- 基于 AI 辅助写作的个人博客平台设计与实现
-- 基于 Vue3 和 Element Plus 的后台管理系统设计与实现
-- 面向大学生学习记录的智能知识管理平台设计与实现
-
+## 🚀 未来规划
+- [ ] 增加文章标签（Tag）系统
+- [ ] 引入 Redis 缓存层提升性能
+- [ ] 编写 Dockerfile，实现一键部署
 ## 页面截图
 
 ### 前台首页
